@@ -8,7 +8,7 @@ def load_model():
 
 model = load_model()
 
-st.title('Gradient Boosting-Based Machine Learning Model for the Prediction of Fibrosis Stage 4 (Oshima et al.)')
+st.title('Gradient Boosting-Based Machine Learning Model for the Prediction of Fibrosis Stage 4')
 st.markdown("#### Enter the following items and click the 'Predict' button")
 
 sex = 1 if st.radio('Gender', ['Female', 'Male']) == 'Male' else 0
